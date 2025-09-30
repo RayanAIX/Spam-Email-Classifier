@@ -1,27 +1,67 @@
-# 📬 Spam Email Classifier
+# 📧 Spam Email Classifier
 
-This machine learning project uses NLP and Naive Bayes to classify SMS messages as Spam or Ham.
+## 📌 Overview
+The **Spam Email Classifier** is a Machine Learning project that classifies emails as **Spam** or **Ham (Not Spam)**.  
+It uses **Natural Language Processing (NLP)** and **Machine Learning algorithms** to achieve high accuracy in detecting spam emails.  
 
-## 📂 Dataset
+---
 
-- Source: [SMS Spam Collection Dataset](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection)
-- Total messages: 5,574
+## 🚀 Features
+- Preprocessing of raw email text (tokenization, stopword removal, TF-IDF vectorization).  
+- Trained ML model for binary classification (Spam / Ham).  
+- Interactive **Hugging Face demo** for real-time testing.  
+- Easy to extend with deep learning models in the future.  
 
-## 🛠️ Tech Stack
+---
 
-- Python
-- Scikit-learn
-- Pandas
-- TfidfVectorizer
-- Naive Bayes Classifier
+## 🗂 Dataset
+The model was trained on the popular **Spam Email Dataset** containing thousands of spam and ham messages.  
+It ensures balanced training for reliable predictions.  
+
+---
+
+## 🛠️ Technologies Used
+- Python 🐍  
+- Scikit-learn  
+- Pandas & NumPy  
+- NLTK (for text preprocessing)  
+- Hugging Face Spaces + Gradio (for live demo)  
+
+---
+
+## 📸 Screenshots
+(Add your screenshots here: training plots, confusion matrix, Hugging Face demo UI)  
+
+---
+
+## 🔴 Live Demo
+👉 Try the model on Hugging Face: [Spam Email Classifier Demo](https://huggingface.co/spaces/RayNetic/Spam-Email-Classifier)  
+
+---
 
 ## 📈 Results
+- Achieved **high accuracy** on the test dataset.  
+- Correctly identifies spam vs ham messages.  
+- Reliable predictions on unseen emails.  
 
-- Accuracy: ~98%
-- Model: Multinomial Naive Bayes
+---
 
-## 📁 How to Run
+## 🔮 Future Improvements
+- Add **deep learning models** (LSTM / Transformer-based).  
+- Support for **multiple languages**.  
+- Deploy as a **browser extension** for real-time email classification.  
 
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
+---
+
+## 👨‍💻 Author
+
+**Muhammad Rayan Shahid**  
+AI & ML Enthusiast  
+
+🌐 [GitHub](https://github.com/RayanAIX)  
+💼 [LinkedIn](https://www.linkedin.com/in/muhammadrayanshahid/)  
+📊 [Kaggle](https://www.kaggle.com/muhammadrayanshahid)  
+🤗 [Hugging Face](https://huggingface.co/RayNetic)  
+🎥 [YouTube - ByteBrilliance AI](https://www.youtube.com/@ByteBrillianceAI)  
+
+---
